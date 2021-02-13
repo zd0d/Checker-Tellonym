@@ -1,34 +1,6 @@
-import random
-from colored import fg
 import requests
-import sys
-import sys as n
 import os
-import time as mm
-import json
-import time
-from colorama import Fore, init
-#TweakPY
-color3 = fg(2)
-color1 = fg(1)
-color2 = fg(50)
-colooor = fg(1)
-green_color = "\033[1;93m"
-O = '\033[33m'  # orange
-detect_color = "\033[m"
-red_color = "\033[m"
-end_banner_color = "\33[00m"
-C = "\033[0m"
-W = "\033[96m"
-BRed="\033[1;31m"
-Green="\033[0;36m"
-Yellow="\033[0;33m"
-count = 0
-def slow(M):
-    for c in M + '\n':
-        n.stdout.write(c)
-        n.stdout.flush()
-        mm.sleep(1. / 200)
+#680068
 banner = ('''
   _______ ______ _      _      ____  _   ___     ____  __
  |__   __|  ____| |    | |    / __ \| \ | \ \   / /  \/  |
@@ -37,18 +9,15 @@ banner = ('''
     | |  | |____| |____| |____ |__| | |\  |  | |  | |  | |
     |_|  |______|______|______\____/|_| \_|  |_|  |_|  |_|
 
-                 Coded by | @TweakPY
+                 Coded by | @680068
 
 
 ''')
 print(banner)
 
-
-slow("- Checker Tellonym v3\n")
-
-time.sleep(4)
 print(" ")
-	
+
+input("Press, Enter To Start :")
 username = 'user.txt'
 use = username
 headers = {
